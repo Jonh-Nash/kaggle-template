@@ -1,0 +1,30 @@
+{
+	"name": "Existing Docker Compose (Extend)",
+
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+
+	"service": "notebook",
+
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"njpwerner.autodocstring",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.vscode-jupyter-cell-tags",
+				"ms-toolsai.jupyter-renderers",
+				"ms-toolsai.vscode-jupyter-slideshow",
+				"ms-python.vscode-pylance",
+				"ms-python.python",
+				"donjayamanne.python-environment-manager",
+				"donjayamanne.python-extension-pack",
+				"ms-toolsai.jupyter-keymap",
+				"KevinRose.vsc-python-indent"
+			]
+		}
+	}
+}
